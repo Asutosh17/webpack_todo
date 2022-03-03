@@ -1,0 +1,30 @@
+{
+  "name": "webpack_todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asutosh17/webpack_todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asutosh17/webpack_todo/issues"
+  },
+  "homepage": "https://github.com/Asutosh17/webpack_todo#readme",
+  "dependencies": {
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  }
+}
